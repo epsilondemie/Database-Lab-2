@@ -1,0 +1,6 @@
+CREATE TABLE Item (
+ItemName VARCHAR (30) NOT NULL,
+ItemType CHAR(1) NOT NULL,
+ItemColour VARCHAR(10),
+PRIMARY KEY (ItemName)
+); 
