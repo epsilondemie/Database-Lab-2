@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -- -- CREATE TABLE Item (
 --     ItemName VARCHAR (30) NOT NULL,
 --     ItemType CHAR(1) NOT NULL,
@@ -44,13 +43,10 @@
 -- EmployeeNumber SMALLINT UNSIGNED NOT NULL REFERENCES Employee,
 -- PRIMARY KEY (DepartmentName));
 
+-- CREATE TABLE Sale (
+--     SaleNumber INTEGER UNSIGNED NOT NULL,
+--     SaleQuantity SMALLINT UNSIGNED NOT NULL DEFAULT 1,
+--     ItemName VARCHAR(30) NOT NULL REFERENCES Item,
+--     DepartmentName VARCHAR(10) NOT NULL REFERENCES Department,
+--     PRIMARY KEY(SaleNumber));
 
-
-=======
-CREATE TABLE Item (
-ItemName VARCHAR (30) NOT NULL,
-ItemType CHAR(1) NOT NULL,
-ItemColour VARCHAR(10),
-PRIMARY KEY (ItemName)
-); 
->>>>>>> 7bdb04faf8f337ced0913ecf6a4d55088e3644ae
